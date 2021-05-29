@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.baby.Body2Fragment">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="620dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:text="常用网站"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Google开发者" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Github" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="掘金" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CSDN" />
+                </com.google.android.material.chip.ChipGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+
+                android:text="速查"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip129"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="速查 | 第三方依赖冲突" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip139"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="速查 | ascii 码表" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip149"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="速查 | Java字节码" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip159"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="速查 | ADB 用法大全" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip169"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="速查 | adb 常用命令" />
+                </com.google.android.material.chip.ChipGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+
+                android:text="查看源码"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="177dp">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip229"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="androidxref" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip239"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="androidos 源码站" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip249"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AOSP源码" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip259"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="官方源码网站" />
+                </com.google.android.material.chip.ChipGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
