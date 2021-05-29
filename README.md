@@ -14,23 +14,23 @@ Androidstudio、java
 
 ## 三、代码目录说明
 
-### activities
+### 1.activities
 
 activities中article包中依次下来是项目界面、web界面、搜索界面、公众号界面，baby中是关于体系板块的的整个内容，主活动为TiActivity，TiZiActivity是每次要跳转的内容活动。ListActivity是首页、LoginActivity是登录、My_characteristicActivity是个人界面、RecommendActivity是问答界面、RegisterActivity是注册界面、SquareActivity是广场界面。
 
-### adapter
+### 2.adapter
 
 adapter中就是对应几个列表的适配器。
 
-### classes
+### 3.classes
 
 classes中就是对json数据解析后存放所需要的数据创建的类和为适配器创建的类。
 
-### Strings
+### 4.Strings
 
 Strings包中为所要用到的url。
 
-### util
+### 5.util
 
 util包中包含自己封装的网络请求类HttpUtil和json数据解析类JsonUtil。
 
